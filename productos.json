@@ -1,0 +1,169 @@
+{
+    "products":[ {"id":"1",
+    "title":" Pantalon vaquero",
+    "price":23.0,
+    "description":"Pantalon de mezclilla azul",
+    "category":"1",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/9/92/Denimjeans2.JPG"
+    
+    },
+    {"id":"2",
+    "title":" Pantalon Negro",
+    "price":42.99,
+    "description":"Pantalón cómodo con bolsillos adicionales",
+    "category":"1",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/c/cd/Cargo_pants_001.jpg"
+    
+    },
+    {"id":"3",
+    "title":"Pantalón deportivo",
+    "price":34.99,
+    "description":"Pantalón ajustado para hacer ejercicio",
+    "category":"1",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/8/84/Tracksuit_bottoms.jpg"
+    
+    },
+    {"id":"4",
+    "title":"Pantalón chino",
+    "price":44.99,
+    "description":"Pantalón elegante para ocasiones formales",
+    "category":"1",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/3/3e/Chino_pants.jpg"
+    
+    },
+    {"id":"5",
+    "title":"Pantalón de lino",
+    "price":23.0,
+    "description":"Pantalón ligero para el verano",
+    "category":"1",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/8/82/Trousers_MET_1978.88.12_F.jpg"
+    
+    },
+    {"id":"6",
+    "title":"Sudadera con capucha",
+    "price":29.99,
+    "description":"Sudadera negra con bolsillo delantero",
+    "category":"2",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/e/e5/Sudadera_urban.jpg"
+    
+    },
+    {"id":"7",
+    "title":"Sudadera sin capucha",
+    "price":27.99,
+    "description":"Sudadera básica para cualquier ocasión",
+    "category":"2",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/e/ea/Jersei-coll-alt.jpg"
+    
+    },
+    {"id":"8",
+    "title":"Sudadera estampada",
+    "price":32.99,
+    "description":"Sudadera con diseño gráfico",
+    "category":"2",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/1/16/Dale_of_Norway_sweater.jpg"
+    
+    },
+    {"id":"9",
+    "title":"Sudadera deportiva",
+    "price":34.99,
+    "description":"Sudadera ajustada para entrenar",
+    "category":"2",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/6/6d/Windjack_-_Windbreaker.jpg"
+    
+    },
+    {"id":"10",
+    "title":"Camiseta blanca",
+    "price":14.99,
+    "description":"Camiseta de algodón blanco",
+    "category":"3",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/c/cd/T-Shirt_Wikipedia_white.jpg"
+    
+    },
+    {"id":"11",
+    "title":"Camiseta negra",
+    "price":14.99,
+    "description":"Camiseta básica de color negro",
+    "category":"3",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/3/37/T-Shirt_Wikipedia_black.jpg"
+    
+    },
+    {"id":"12",
+    "title":"Camiseta con estampado",
+    "price":19.99,
+    "description":"Camiseta con diseño moderno",
+    "category":"3",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/c/c9/New-style-T-shirt-00455657.jpg"
+    
+    },
+    {"id":"13",
+    "title":"Camiseta de manga larga",
+    "price":22.99,
+    "description":"Camiseta cómoda para clima frío",
+    "category":"3",
+    "image":"https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+    
+    },
+    {"id":"14",
+    "title":"Camisa de lino",
+    "price":24.99,
+    "description":"Camisa ligera ideal para verano",
+    "category":"4",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/6/68/Shirt%2C_man%27s_%28AM_2016.80.2-3%29.jpg"
+    
+    },
+    {"id":"15",
+    "title":"Camisa a cuadros",
+    "price":27.99,
+    "description":"Camisa de estilo casual",
+    "category":"4",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/2/2c/Check_shirt.jpg"
+    
+    },
+    {"id":"16",
+    "title":"Camisa formal",
+    "price":29.99,
+    "description":"Camisa para ocasiones elegantes",
+    "category":"4",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/0/09/Shirt%2C_men%27s_%28AM_2015.44.1-1%29.jpg"
+    
+    },
+    {"id":"17",
+    "title":"Camisa hawaiana",
+    "price":24.99,
+    "description":"Camisa fresca con estampado tropical",
+    "category":"4",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/3/3c/Guiness_hilo_hattie_aloha_shirt.jpg"
+    
+    },
+    {"id":"18",
+    "title":"Chaqueta de cuero",
+    "price":59.99,
+    "description":"Chaqueta de cuero sintético",
+    "category":"5",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/b/b8/Leather_Jacket_%2851011162080%29.jpg"
+    
+    },
+    {"id":"19",
+    "title":"Chaqueta de mezclilla",
+    "price":49.99,
+    "description":"Chaqueta estilo denim",
+    "category":"5",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/1/10/Denim_Jacket_%2851079649933%29.jpg"
+    
+    },
+    {"id":"20",
+    "title":"Chaqueta acolchada",
+    "price":69.99,
+    "description":"Chaqueta para clima frío",
+    "category":"5",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/d/df/MA-1_Jacket_in_petrol.jpg"
+    
+    },
+    {"id":"21",
+    "title":"Chaqueta impermeable",
+    "price":74.99,
+    "description":"Chaqueta para días de lluvia",
+    "category":"5",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/4/46/Windbreaker_Jacket%2C_Hood_Outside.jpg"
+    
+    }]}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="index.js" defer></script>
+    <script src="carrito.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="fotos/logo.png" alt="logo" id="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li class="desplegable"><a href="productos.html" class="desplegableNom"
+                        onclick="verProductos()">Productos</a></li>
+                <li><a href="estadisticas.html">Estadisticas</a></li>
+                <li class="fotocarro"><a id="carritoLink" href="carrito.html" style="background-color: white;"><img
+                            src="fotos/carrito.png" alt="carrito"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>PRODUCTOS CON BAJO STOCK</h1>
+        <div id="producto-container" class="carousel"></div>
+    </main>
+    <footer>
+        <div class="footer">
+            <h3 id="contacto">Contacto:</h3>
+            <ul class="footer-info">
+                <li><a href="https://instagram.com" target="_blank">Instagram<img class="Logo-Footer"
+                            src="fotos/logoInstagram.png" alt="Instagram"></a></li><br>
+                <li><a href="tel:+34943364600">Teléfono<img class="Logo-Footer" src="fotos/LogoTelefono.png"></a></li>
+                <br>
+                <li><a href="mailto:usurbiltex@gmail.com">Email<img class="Logo-Footer" src="fotos/LogoGmail.png"></a>
+                </li>
+            </ul>
+            <br>
+            <div class="footer-legal-enlaces">
+                <p><a href="https://creativecommons.org/" class="Creative-Commons"><img class="Creative-Commons"
+                            src="fotos/cclogo.png"></a>
+                    <a href="#">Aviso Legal</a>
+                    <a href="#">Política de privacidad</a>
+                    <a href="#">Política de cookies</a>
+                </p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+
+    </script>
+</body>
+
+</html>

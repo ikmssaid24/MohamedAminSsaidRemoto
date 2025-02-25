@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadísticas</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/estadisticas.css">
+    <script src="estadisticas.js" defer></script>
+    <script src="productos.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="fotos/logo.png" alt="logo" id="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li class="desplegable">
+                    <a href="productos.html" class="desplegableNom">Productos</a>
+                </li>
+                <li><a href="estadisticas.html">Estadísticas</a></li>
+                <li class="fotocarro"><a id="carritoLink" href="carrito.html" style="background-color: white;"><img
+                            src="fotos/carrito.png" alt="carrito"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Productos con Bajo Stock</h2>
+            <div class="slider-container">
+                <div class="slider" id="slider-stockBajo">
+                    <!-- Slides will be inserted here by JavaScript -->
+                </div>
+                <div class="slider-indicators" id="slider-indicators-stockBajo">
+                    <!-- Indicators will be inserted here by JavaScript -->
+                </div>
+                <button class="prev" onclick="moveSlide('stockBajo', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('stockBajo', 1)">&#10095;</button>
+            </div>
+        </section>
+        <section>
+            <h2>Usuarios con Más Pedidos</h2>
+            <div class="slider-container">
+                <div class="slider" id="slider-usuariosConMasPedidos">
+                    <!-- Slides will be inserted here by JavaScript -->
+                </div>
+                <div class="slider-indicators" id="slider-indicators-usuariosConMasPedidos">
+                    <!-- Indicators will be inserted here by JavaScript -->
+                </div>
+                <button class="prev" onclick="moveSlide('usuariosConMasPedidos', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('usuariosConMasPedidos', 1)">&#10095;</button>
+            </div>
+        </section>
+        <section>
+            <h2>Ganancias por Mes</h2>
+            <div class="slider-container">
+                <div class="slider" id="slider-GananciasPorMes">
+                    <!-- Slides will be inserted here by JavaScript -->
+                </div>
+                <div class="slider-indicators" id="slider-indicators-GananciasPorMes">
+                    <!-- Indicators will be inserted here by JavaScript -->
+                </div>
+                <button class="prev" onclick="moveSlide('GananciasPorMes', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('GananciasPorMes', 1)">&#10095;</button>
+            </div>
+        </section>
+        <section>
+            <h2>Productos Nunca Comprados</h2>
+            <div class="slider-container">
+                <div class="slider" id="slider-productosNuncaCompr">
+                    <!-- Slides will be inserted here by JavaScript -->
+                </div>
+                <div class="slider-indicators" id="slider-indicators-productosNuncaCompr">
+                    <!-- Indicators will be inserted here by JavaScript -->
+                </div>
+                <button class="prev" onclick="moveSlide('productosNuncaCompr', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('productosNuncaCompr', 1)">&#10095;</button>
+            </div>
+        </section>
+        <section>
+            <h2>Ganancias más de Quinientos</h2>
+            <div class="slider-container">
+                <div class="slider" id="slider-gananciasMasDeQuinientos">
+                    <!-- Slides will be inserted here by JavaScript -->
+                </div>
+                <div class="slider-indicators" id="slider-indicators-gananciasMasDeQuinientos">
+                    <!-- Indicators will be inserted here by JavaScript -->
+                </div>
+                <button class="prev" onclick="moveSlide('gananciasMasDeQuinientos', -1)">&#10094;</button>
+                <button class="next" onclick="moveSlide('gananciasMasDeQuinientos', 1)">&#10095;</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <h3 id="contacto">Contacto:</h3>
+            <ul class="footer-info">
+                <li><a href="https://instagram.com" target="_blank">Instagram<img class="Logo-Footer"
+                            src="fotos/logoInstagram.png"></a></li><br>
+                <li><a href="tel:+34943364600">Teléfono<img class="Logo-Footer" src="fotos/LogoTelefono.png"></a></li>
+                <br>
+                <li><a href="mailto:usurbiltex@gmail.com">Email<img class="Logo-Footer" src="fotos/LogoGmail.png"></a>
+                </li>
+            </ul>
+            <br>
+            <div class="footer-legal-enlaces">
+                <p><a href="https://creativecommons.org/" class="Creative-Commons"><img class="Creative-Commons"
+                            src="fotos/cclogo.png"></a>
+                    <a href="#">Aviso Legal</a>
+                    <a href="#">Política de privacidad</a>
+                    <a href="#">Política de cookies</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
